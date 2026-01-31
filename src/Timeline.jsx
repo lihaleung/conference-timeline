@@ -15,7 +15,7 @@ const timelineData = [
   },
   { 
     time: "11:15-12pm", 
-    title: "Industry Panel",
+    title: "Lessons from the Frontier: Industry Reflections on Governing AI",
     description: "Policy heads from frontier tech companies discussing responsible scaling policies and governance frameworks",
     location: "Centre Building"
   },
@@ -25,41 +25,40 @@ const timelineData = [
     location: "Marshall Building/Shaw Library"
   },
   { 
-    time: "1:15-2:15pm", 
+    time: "1-2pm", 
     title: "Headline Address",
     description: "A discussion on digital democracy and international AI coordination",
     location: "Old Theatre"
   },
   { 
-    time: "2:15-3pm", 
-    title: "Governance Panel",
+    time: "2:30-3:15pm", 
+    title: "AI Governance in a Multipolar World: Power, Authority, and Legitimacy",
     description: "UK policymakers on regulatory approaches to transformative AI",
     location: "Centre Building"
   },
   { 
-    time: "3-3:30pm", 
+    time: "3:15-4pm", 
     title: "Coffee Break",
     location: "Shaw Library"
   },
   { 
-    time: "3:45-5pm", 
+    time: "4-5:15pm", 
     title: "Breakout Sessions",
     description: [
       "Law Clinic: Legal experts guide students through live governance scenarios (eg. designing oversight mechanisms, drafting policy proposals)",
       "Research Pathways: Direct exposure to career trajectories at AI safety organisations, think tanks, and advocacy groups",
-      "Global Perspectives: International coordination challenges, non-Western governance approaches, and building consensus across geopolitical divides",
       "Frontier Innovation: Responsible development practices at leading AI/tech start-ups, understanding governance from the inside"
     ],
     location: "Marshall Building"
   },
   { 
-    time: "3:45-5pm", 
+    time: "4-5:15pm", 
     title: "Student Presentations",
     description: "15-20 selected submissions on governance research",
     location: "Marshall Building"
   },
   { 
-    time: "5:15-5:45pm", 
+    time: "5:30-6pm", 
     title: "Closing Ceremony",
     location: "Old Theatre"
   },
