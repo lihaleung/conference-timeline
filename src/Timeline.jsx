@@ -3,62 +3,49 @@ import { motion, useInView } from "framer-motion";
 
 const timelineData = [
   { 
-    time: "9:30-10am", 
-    title: "Event Registration",
+    time: "9:30-10:00am", 
+    title: "Registration",
     location: "Old Theatre"
   },
   { 
-    time: "10-11am", 
+    time: "10:00-11:00am", 
     title: "Opening Ceremony",
-    description: "Welcoming Remarks and Framing Debate",
     location: "Old Theatre"
   },
   { 
-    time: "11:15-12pm", 
+    time: "11:15am-12:15pm", 
     title: "Lessons from the Frontier: Industry Reflections on Governing AI",
     description: "Policy heads from frontier tech companies discussing responsible scaling policies and governance frameworks",
-    location: "Centre Building"
-  },
-  { 
-    time: "12-1pm", 
-    title: "Lunch Break",
-    location: "Marshall Building/Shaw Library"
-  },
-  { 
-    time: "1-2pm", 
-    title: "Headline Address",
-    description: "A discussion on digital democracy and international AI coordination",
     location: "Old Theatre"
   },
   { 
-    time: "2:30-3:15pm", 
+    time: "12:15-1:30pm", 
+    title: "Lunch Break"
+  },
+  { 
+    time: "1:30-2:00pm", 
+    title: "Fireside Chat with Martin Bauer",
+    location: "Old Theatre"
+  },
+  { 
+    time: "2:15-3:15pm", 
     title: "AI Governance in a Multipolar World: Power, Authority, and Legitimacy",
-    description: "UK policymakers on regulatory approaches to transformative AI",
-    location: "Centre Building"
+    description: "Interdisciplinary perspectives on international AI Governance",
+    location: "Old Theatre"
   },
   { 
-    time: "3:15-4pm", 
-    title: "Coffee Break",
-    location: "Shaw Library"
-  },
-  { 
-    time: "4-5:15pm", 
+    time: "3:30-4:30pm", 
     title: "Breakout Sessions",
     description: [
-      "Law Clinic: Legal experts guide students through live governance scenarios (eg. designing oversight mechanisms, drafting policy proposals)",
-      "Research Pathways: Direct exposure to career trajectories at AI safety organisations, think tanks, and advocacy groups",
-      "Frontier Innovation: Responsible development practices at leading AI/tech start-ups, understanding governance from the inside"
+      "Tech Law in Action (MAR.1.04): A small-group roundtable with leading tech lawyers on regulation, risk, and responsible AI in practice",
+      "Inside the Institutes (MAR.1.08): Direct exposure to career trajectories at AI safety organisations, think tanks, and advocacy groups",
+      "Frontier Governance (MAR.2.04): Responsible development practices at leading AI/tech start-ups, understanding governance from the inside",
+      "Open Forum (Marshall Lobby): Networking with panelists and other participants"
     ],
     location: "Marshall Building"
   },
   { 
-    time: "4-5:15pm", 
-    title: "Student Presentations",
-    description: "15-20 selected submissions on governance research",
-    location: "Marshall Building"
-  },
-  { 
-    time: "5:30-6pm", 
+    time: "4:45-5:30pm", 
     title: "Closing Ceremony",
     location: "Old Theatre"
   },
