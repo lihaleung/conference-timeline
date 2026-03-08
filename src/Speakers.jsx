@@ -17,6 +17,7 @@ const speakersData = [
     company: "Former Responsible AI Lead, PwC",
     bio: "Maria Luciana Axente is a globally recognised AI ethics and public policy expert with over two decades of experience. Formerly PwC's Responsible AI and AI for Good Lead, she was instrumental in establishing PwC's UK AI Centre of Excellence and its Responsible AI toolkit. She now leads Responsible Intelligence, a strategic AI advisory firm, and is a Senior Research Associate at the Intellectual Forum, Jesus College, Cambridge. She has advised UNICEF, the World Economic Forum, NATO's Advisory Group on Emerging and Disruptive Technologies, and the UK Parliament's All-Party Parliamentary Group on AI.",
     image: "/speakers/maria-axente.png",
+    imagePosition: "center 20%",
   },
   {
     name: "Emma Thwaites",
@@ -157,7 +158,12 @@ function SpeakerCard({ speaker, index, onClick }) {
     >
       <div className="speaker-image-container">
         {speaker.image ? (
-          <img src={speaker.image} alt={speaker.name} className="speaker-image" />
+          <img 
+            src={speaker.image} 
+            alt={speaker.name} 
+            className="speaker-image" 
+            style={speaker.imagePosition ? { objectPosition: speaker.imagePosition } : {}}
+          />
         ) : (
           <div className="speaker-placeholder">
             <span>{getInitials(speaker.name)}</span>
@@ -197,7 +203,12 @@ function SpeakerModal({ speaker, onClose }) {
           <div className="modal-header">
             <div className="modal-image-container">
               {speaker.image ? (
-                <img src={speaker.image} alt={speaker.name} className="modal-image" />
+                <img 
+                  src={speaker.image} 
+                  alt={speaker.name} 
+                  className="modal-image"
+                  style={speaker.imagePosition ? { objectPosition: speaker.imagePosition } : {}}
+                />
               ) : (
                 <div className="modal-placeholder">
                   <span>{getInitials(speaker.name)}</span>
