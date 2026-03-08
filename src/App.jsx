@@ -1,10 +1,10 @@
-import Speakers from './Speakers'
+import Timeline from './Timeline'
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Speakers />
+      <Timeline />
     </div>
   )
 }
