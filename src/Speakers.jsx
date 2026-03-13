@@ -41,6 +41,13 @@ const speakersData = [
     image: "/speakers/ulysse-richard.png",
   },
   {
+    name: "Gaia Marcus",
+    title: "",
+    company: "",
+    bio: "Gaia Marcus is a speaker at the AILG conference.",
+    image: "/speakers/gaia-marcus.png",
+  },
+  {
     name: "Ashyana-Jasmina Kachra",
     title: "AI Ethics & Safety Manager",
     company: "Google DeepMind",
